@@ -16,7 +16,7 @@ export default async function PageLayout(props: { children: React.ReactNode }) {
     <div className="">
       <div className="flex  bg-gray-50">
         {/* Sidebar */}
-        <Sidebar   />
+         <Sidebar   />
         {/* Main Content */}
         <main className=" w-full">
           <Nav   />
